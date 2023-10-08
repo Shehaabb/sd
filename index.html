@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+    <link rel='stylesheet' href='./style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Glory:wght@100;400&family=Poppins&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="./img.png" alt="">
+            <div class="content">
+                <h1>Work with us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis maximus nunc, ac rhoncus odio
+                    congue quis. Sed ac semper orci, eu porttitor lacus. </p>
+            </div>
+        </div>
+        <div class="right">
+            <p>Don’t have an acount?<span> Sign up</span></p>
+            <div class="form">
+                <h1>Welcome back!</h1>
+                <a><img src="./google.png" id="google"> Continue with Google</a>
+                <a><img src="./twitter.png" id="twitter"> Continue with Twitter</a>
+                <div class="divider">
+                    <hr>
+                    <p>OR</p>
+                    <hr>
+                </div>
+                <div class="input">
+                    <label for="">Enter your email address</label>
+                    <input type="text" id="email-input">
+                    <h4 id="valid-email"></h4>
+                    <label for="">Enter your password</label>
+                    <input type="text" id="password-input">
+                    <h4 id="valid-password"></h4>
+                    <span id="forget">Forget your password</span>
+                    <a id="sign-in" onclick="validateForm()">Sign in</a>
+                    <h3 id="valid"></h3>
+                    <p>Don’t have an acount?<span> Sign up</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+</html>
